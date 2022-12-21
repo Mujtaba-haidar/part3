@@ -1,0 +1,53 @@
+body{
+    padding: 0; margin: 0;
+    background: #ddd;
+    display: block;
+}
+label{
+  
+ font-weight: bold;
+ text-transform: capitalize;
+}
+input[type="text"], input[type="password"],input[type="email"],input[type="tel"]{
+   display: block;
+    width: 250px;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background:#0096c7;
+    transition: 0.25s;
+    color: #ddd;
+}
+input[type="text"]:focus, input[type="password"]:focus,input[type="email"]:focus,input[type="tel"]:focus{
+    width:280px ;
+    background: #023b3f;
+}
+fieldset{
+    width: 40%;
+}
+legend{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:#023e8a;
+}
+input[type="submit"]{
+    width: 200px;
+   text-align: center;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background:#0096c7;
+    transition: 0.25s;
+    color: #ddd;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    width: 220px;
+    background: #023e8a;
+}
